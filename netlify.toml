@@ -1,0 +1,13 @@
+[build]
+  publish = "public"
+  command = ""
+
+# Auto-grade every 15 minutes
+[[functions]]
+  name = "auto-grade"
+  schedule = "*/15 * * * *"
+
+# Alerts every 10 minutes
+[[functions]]
+  name = "alerts-engine"
+  schedule = "*/10 * * * *"

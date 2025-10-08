@@ -1,12 +1,9 @@
 {
-  "name": "blacklight-backend",
-  "version": "1.0.0",
-  "description": "Backend API for Blacklight Watch",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "name": "sportsspherepro-all-in-one",
+  "private": true,
   "dependencies": {
-    "express": "^4.18.2"
+    "@netlify/blobs": "^6.4.0",
+    "node-fetch": "^3.3.2",
+    "web-push": "^3.6.6"
   }
 }
